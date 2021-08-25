@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0ED38E0626D6FB490096E7F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED38E0526D6FB490096E7F6 /* AppDelegate.swift */; };
-		0ED38E0826D6FB490096E7F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED38E0726D6FB490096E7F6 /* ViewController.swift */; };
 		0ED38E0A26D6FB4B0096E7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED38E0926D6FB4B0096E7F6 /* Assets.xcassets */; };
 		0ED38E0D26D6FB4B0096E7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED38E0B26D6FB4B0096E7F6 /* Main.storyboard */; };
+		0ED38E1626D6FC310096E7F6 /* htmlTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED38E1526D6FC310096E7F6 /* htmlTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0ED38E0226D6FB490096E7F6 /* detectCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = detectCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED38E0526D6FB490096E7F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0ED38E0726D6FB490096E7F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0ED38E0926D6FB4B0096E7F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ED38E0C26D6FB4B0096E7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0ED38E0E26D6FB4B0096E7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ED38E0F26D6FB4B0096E7F6 /* detectCharacters.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = detectCharacters.entitlements; sourceTree = "<group>"; };
+		0ED38E1526D6FC310096E7F6 /* htmlTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = htmlTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				0ED38E0526D6FB490096E7F6 /* AppDelegate.swift */,
-				0ED38E0726D6FB490096E7F6 /* ViewController.swift */,
 				0ED38E0926D6FB4B0096E7F6 /* Assets.xcassets */,
 				0ED38E0B26D6FB4B0096E7F6 /* Main.storyboard */,
+				0ED38E1526D6FC310096E7F6 /* htmlTemplate.swift */,
 				0ED38E0E26D6FB4B0096E7F6 /* Info.plist */,
 				0ED38E0F26D6FB4B0096E7F6 /* detectCharacters.entitlements */,
 			);
@@ -132,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ED38E0826D6FB490096E7F6 /* ViewController.swift in Sources */,
+				0ED38E1626D6FC310096E7F6 /* htmlTemplate.swift in Sources */,
 				0ED38E0626D6FB490096E7F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +281,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = cotto.detectCharacters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -302,6 +303,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = cotto.detectCharacters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
