@@ -193,6 +193,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                     try htmlOutput.write(to: result!,
                                          atomically:
                         true, encoding: .utf8)
+                    showDialog()
                 } catch {
                     print(error)
                 }

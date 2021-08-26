@@ -187,7 +187,7 @@ let htmlTemplate = """
         reset();
 
         if (textArray.length == 0 || textArray.join("").length == 0) {
-            alert("textArray parameter is empty.");
+            alert("textArray parameter is empty—please add an array of the text as strings when calling the function:\n\nwordByWord(imgData, ['first line text', 'second line text'], true);");
             return false;
         }
 
